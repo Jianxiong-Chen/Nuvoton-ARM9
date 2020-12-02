@@ -1,0 +1,1 @@
+cmd_cmd/built-in.o :=  arm-linux-gnueabihf-ld.bfd     -r -o cmd/built-in.o cmd/boot.o cmd/bootm.o cmd/help.o cmd/version.o cmd/source.o cmd/bdinfo.o cmd/console.o cmd/echo.o cmd/elf.o cmd/exit.o cmd/fat.o cmd/itest.o cmd/load.o cmd/mem.o cmd/misc.o cmd/mtdparts.o cmd/nand.o cmd/net.o cmd/pcmcia.o cmd/test.o cmd/ubi.o cmd/ubifs.o cmd/usb.o cmd/disk.o cmd/ximg.o cmd/nvedit.o 

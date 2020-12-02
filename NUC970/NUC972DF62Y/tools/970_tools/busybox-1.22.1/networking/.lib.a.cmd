@@ -1,0 +1,1 @@
+cmd_networking/lib.a := rm -f networking/lib.a; /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar  rcs networking/lib.a networking/hostname.o networking/ifconfig.o networking/ifenslave.o networking/ifplugd.o networking/ifupdown.o networking/interface.o networking/ip.o networking/netstat.o networking/ping.o networking/wget.o

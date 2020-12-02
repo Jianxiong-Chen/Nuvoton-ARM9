@@ -1,0 +1,5 @@
+nuc970_fb.c:100:6:lcd_enable	0	static
+nuc970_fb.c:107:6:lcd_disable	0	static
+nuc970_fb.c:114:6:lcd_ctrl_init	0	static
+nuc970_fb.c:167:6:lcd_getcolreg	0	static
+nuc970_fb.c:210:6:lcd_show_board_info	8	static

@@ -1,0 +1,1 @@
+cmd_arch/arm/cpu/arm926ejs/nuc970/built-in.o :=  arm-linux-gnueabihf-ld.bfd     -r -o arch/arm/cpu/arm926ejs/nuc970/built-in.o arch/arm/cpu/arm926ejs/nuc970/cpu.o arch/arm/cpu/arm926ejs/nuc970/timer.o arch/arm/cpu/arm926ejs/nuc970/reset.o arch/arm/cpu/arm926ejs/nuc970/relocate.o 

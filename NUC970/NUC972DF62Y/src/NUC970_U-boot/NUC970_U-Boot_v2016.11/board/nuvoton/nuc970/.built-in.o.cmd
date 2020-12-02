@@ -1,0 +1,1 @@
+cmd_board/nuvoton/nuc970/built-in.o :=  arm-linux-gnueabihf-ld.bfd     -r -o board/nuvoton/nuc970/built-in.o board/nuvoton/nuc970/nuc970.o board/nuvoton/nuc970/cmd_decrypt.o board/nuvoton/nuc970/cmd_rtc_spare.o 

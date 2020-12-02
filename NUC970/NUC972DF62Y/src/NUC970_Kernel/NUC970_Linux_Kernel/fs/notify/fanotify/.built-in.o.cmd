@@ -1,0 +1,1 @@
+cmd_fs/notify/fanotify/built-in.o :=  rm -f fs/notify/fanotify/built-in.o; /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar rcsD fs/notify/fanotify/built-in.o

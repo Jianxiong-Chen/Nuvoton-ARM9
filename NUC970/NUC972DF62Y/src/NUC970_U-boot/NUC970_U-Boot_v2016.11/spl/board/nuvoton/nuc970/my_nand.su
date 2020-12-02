@@ -1,0 +1,3 @@
+my_nand.c:30:5:nand_mtd_to_devnum	0	static
+my_nand.c:43:5:nand_register	0	static
+my_nand.c:73:6:nand_init	0	static

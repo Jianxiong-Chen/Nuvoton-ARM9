@@ -1,0 +1,1 @@
+cmd_net/wireless/built-in.o :=  /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o net/wireless/built-in.o net/wireless/cfg80211.o net/wireless/wext-core.o net/wireless/wext-proc.o 

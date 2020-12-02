@@ -1,0 +1,1 @@
+cmd_util-linux/lib.a := rm -f util-linux/lib.a; /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar  rcs util-linux/lib.a util-linux/mdev.o util-linux/mount.o util-linux/umount.o

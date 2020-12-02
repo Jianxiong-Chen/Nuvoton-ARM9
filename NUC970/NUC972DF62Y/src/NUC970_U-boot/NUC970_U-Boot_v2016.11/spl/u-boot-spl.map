@@ -1,0 +1,733 @@
+Archive member included because of file (symbol)
+
+arch/arm/lib/lib.a(lib1funcs.o)
+                              board/nuvoton/nuc970/built-in.o (__aeabi_uidiv)
+arch/arm/lib/lib.a(lshrdi3.o)
+                              board/nuvoton/nuc970/built-in.o (__aeabi_llsr)
+
+舍弃的输入节
+
+ .data          0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/start.o
+ .bss           0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/start.o
+ .text          0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/built-in.o
+ .text.cleanup_before_linux
+                0x0000000000000000       0x24 arch/arm/cpu/arm926ejs/built-in.o
+ .text.invalidate_dcache_all
+                0x0000000000000000        0x4 arch/arm/cpu/arm926ejs/built-in.o
+ .text.flush_dcache_all
+                0x0000000000000000        0x4 arch/arm/cpu/arm926ejs/built-in.o
+ .text.l2_cache_disable
+                0x0000000000000000        0x4 arch/arm/cpu/arm926ejs/built-in.o
+ .text.print_cpuinfo
+                0x0000000000000000       0xec arch/arm/cpu/arm926ejs/built-in.o
+ .text.arch_cpu_init
+                0x0000000000000000        0x8 arch/arm/cpu/arm926ejs/built-in.o
+ .text.reset_cpu
+                0x0000000000000000       0x38 arch/arm/cpu/arm926ejs/built-in.o
+ .rodata.str1.1
+                0x0000000000000000       0x57 arch/arm/cpu/arm926ejs/built-in.o
+ .data          0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/built-in.o
+ .comment       0x0000000000000000       0x94 arch/arm/cpu/arm926ejs/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/built-in.o
+ .ARM.attributes
+                0x0000000000000000       0x2b arch/arm/cpu/arm926ejs/built-in.o
+ .debug_aranges
+                0x0000000000000000       0x98 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_info    0x0000000000000000      0xee3 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_abbrev  0x0000000000000000      0x54e arch/arm/cpu/arm926ejs/built-in.o
+ .debug_line    0x0000000000000000      0x36d arch/arm/cpu/arm926ejs/built-in.o
+ .debug_frame   0x0000000000000000       0xc0 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_str     0x0000000000000000     0x112d arch/arm/cpu/arm926ejs/built-in.o
+ .debug_loc     0x0000000000000000       0x98 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_ranges  0x0000000000000000       0xd0 arch/arm/cpu/arm926ejs/built-in.o
+ .text.arch_reserve_stacks
+                0x0000000000000000       0x1c arch/arm/lib/built-in.o
+ .text.interrupt_init
+                0x0000000000000000       0x1c arch/arm/lib/built-in.o
+ .text.enable_interrupts
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.disable_interrupts
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.bad_mode
+                0x0000000000000000       0x10 arch/arm/lib/built-in.o
+ .text.show_regs
+                0x0000000000000000      0x174 arch/arm/lib/built-in.o
+ .text.do_undefined_instruction
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_software_interrupt
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_prefetch_abort
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_data_abort
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_not_used
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_fiq   0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_irq   0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.reset_misc
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.do_reset
+                0x0000000000000000       0x34 arch/arm/lib/built-in.o
+ .text.enable_caches
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .text.invalidate_dcache_range
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.flush_dcache_range
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.flush_cache
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.flush_dcache_all
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .text.check_cache_range
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.cp_delay
+                0x0000000000000000       0x30 arch/arm/lib/built-in.o
+ .text.arm_init_before_mmu
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.arm_init_domains
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.set_section_dcache
+                0x0000000000000000       0x14 arch/arm/lib/built-in.o
+ .text.mmu_page_table_flush
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.mmu_set_region_dcache_behaviour
+                0x0000000000000000       0x5c arch/arm/lib/built-in.o
+ .text.dram_bank_mmu_setup
+                0x0000000000000000       0x44 arch/arm/lib/built-in.o
+ .text.icache_enable
+                0x0000000000000000       0x18 arch/arm/lib/built-in.o
+ .text.icache_disable
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.icache_status
+                0x0000000000000000       0x10 arch/arm/lib/built-in.o
+ .text.dcache_enable
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.dcache_disable
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.dcache_status
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.fdt_psci
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .rodata        0x0000000000000000       0x80 arch/arm/lib/built-in.o
+ .rodata.str1.1
+                0x0000000000000000      0x2cf arch/arm/lib/built-in.o
+ .data          0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_end  0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__rel_dyn_end
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__image_copy_end
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__image_copy_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_rel_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_stack_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__bss_end     0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_stack_end
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_stop
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__end         0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_rel_stop
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__rel_dyn_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__bss_start   0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .text          0x0000000000000000        0x0 board/nuvoton/nuc970/built-in.o
+ .text.hang     0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .text.nand_mtd_to_devnum
+                0x0000000000000000       0x2c board/nuvoton/nuc970/built-in.o
+ .text.nand_init
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .text.nand_calculate_ecc
+                0x0000000000000000       0xf0 board/nuvoton/nuc970/built-in.o
+ .text.strcpy   0x0000000000000000       0x18 board/nuvoton/nuc970/built-in.o
+ .text.strncpy  0x0000000000000000       0x24 board/nuvoton/nuc970/built-in.o
+ .text.strcat   0x0000000000000000       0x30 board/nuvoton/nuc970/built-in.o
+ .text.strncat  0x0000000000000000       0x54 board/nuvoton/nuc970/built-in.o
+ .text.strcmp   0x0000000000000000       0x2c board/nuvoton/nuc970/built-in.o
+ .text.strchr   0x0000000000000000       0x2c board/nuvoton/nuc970/built-in.o
+ .text.strrchr  0x0000000000000000       0x3c board/nuvoton/nuc970/built-in.o
+ .text.strnlen  0x0000000000000000       0x2c board/nuvoton/nuc970/built-in.o
+ .text.strdup   0x0000000000000000       0x40 board/nuvoton/nuc970/built-in.o
+ .text.bcopy    0x0000000000000000       0x24 board/nuvoton/nuc970/built-in.o
+ .text.memmove  0x0000000000000000       0x48 board/nuvoton/nuc970/built-in.o
+ .text.memcmp   0x0000000000000000       0x30 board/nuvoton/nuc970/built-in.o
+ .text.nuc970_serial_getc
+                0x0000000000000000       0x1c board/nuvoton/nuc970/built-in.o
+ .text.nuc970_serial_tstc
+                0x0000000000000000       0x18 board/nuvoton/nuc970/built-in.o
+ .text.nuc970_serial_setbrg
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .text.nuc970_serial_puts
+                0x0000000000000000       0x20 board/nuvoton/nuc970/built-in.o
+ .text.nuc970_serial_initialize
+                0x0000000000000000        0xc board/nuvoton/nuc970/built-in.o
+ .text.default_serial_console
+                0x0000000000000000        0xc board/nuvoton/nuc970/built-in.o
+ .text.serial_stub_start
+                0x0000000000000000        0xc board/nuvoton/nuc970/built-in.o
+ .text.serial_stub_stop
+                0x0000000000000000        0xc board/nuvoton/nuc970/built-in.o
+ .text.serial_stub_putc
+                0x0000000000000000       0x10 board/nuvoton/nuc970/built-in.o
+ .text.serial_stub_puts
+                0x0000000000000000       0x10 board/nuvoton/nuc970/built-in.o
+ .text.serial_stub_getc
+                0x0000000000000000        0xc board/nuvoton/nuc970/built-in.o
+ .text.serial_stub_tstc
+                0x0000000000000000        0xc board/nuvoton/nuc970/built-in.o
+ .text.get_current
+                0x0000000000000000       0x44 board/nuvoton/nuc970/built-in.o
+ .text.serial_null
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .text.serial_register
+                0x0000000000000000       0x18 board/nuvoton/nuc970/built-in.o
+ .text.serial_stdio_init
+                0x0000000000000000       0xa4 board/nuvoton/nuc970/built-in.o
+ .text.serial_assign
+                0x0000000000000000       0x4c board/nuvoton/nuc970/built-in.o
+ .text.serial_initialize
+                0x0000000000000000       0x14 board/nuvoton/nuc970/built-in.o
+ .text.serial_reinit_all
+                0x0000000000000000       0x2c board/nuvoton/nuc970/built-in.o
+ .text.serial_init
+                0x0000000000000000       0x20 board/nuvoton/nuc970/built-in.o
+ .text.serial_setbrg
+                0x0000000000000000       0x14 board/nuvoton/nuc970/built-in.o
+ .text.serial_getc
+                0x0000000000000000       0x14 board/nuvoton/nuc970/built-in.o
+ .text.serial_tstc
+                0x0000000000000000       0x14 board/nuvoton/nuc970/built-in.o
+ .text.serial_putc
+                0x0000000000000000       0x1c board/nuvoton/nuc970/built-in.o
+ .text.serial_puts
+                0x0000000000000000       0x1c board/nuvoton/nuc970/built-in.o
+ .text.default_serial_puts
+                0x0000000000000000       0x30 board/nuvoton/nuc970/built-in.o
+ .text._PutChar_f
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .text.put_dec_trunc
+                0x0000000000000000       0xec board/nuvoton/nuc970/built-in.o
+ .text.string   0x0000000000000000       0xbc board/nuvoton/nuc970/built-in.o
+ .text.put_dec  0x0000000000000000      0x144 board/nuvoton/nuc970/built-in.o
+ .text.number   0x0000000000000000      0x2b4 board/nuvoton/nuc970/built-in.o
+ .text.vsnprintf_internal
+                0x0000000000000000      0x6b0 board/nuvoton/nuc970/built-in.o
+ .text.vsnprintf
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .text.vscnprintf
+                0x0000000000000000       0x24 board/nuvoton/nuc970/built-in.o
+ .text.snprintf
+                0x0000000000000000       0x28 board/nuvoton/nuc970/built-in.o
+ .text.scnprintf
+                0x0000000000000000       0x28 board/nuvoton/nuc970/built-in.o
+ .text.vsprintf
+                0x0000000000000000       0x10 board/nuvoton/nuc970/built-in.o
+ .text.sprintf  0x0000000000000000       0x28 board/nuvoton/nuc970/built-in.o
+ .text.printf   0x0000000000000000       0x44 board/nuvoton/nuc970/built-in.o
+ .text.vprintf  0x0000000000000000       0x34 board/nuvoton/nuc970/built-in.o
+ .text.__assert_fail
+                0x0000000000000000       0x14 board/nuvoton/nuc970/built-in.o
+ .text.simple_itoa
+                0x0000000000000000       0x54 board/nuvoton/nuc970/built-in.o
+ .text.print_grouped_ull
+                0x0000000000000000       0x88 board/nuvoton/nuc970/built-in.o
+ .text.str2off  0x0000000000000000       0x40 board/nuvoton/nuc970/built-in.o
+ .text.str2long
+                0x0000000000000000       0x40 board/nuvoton/nuc970/built-in.o
+ .text.__div64_32
+                0x0000000000000000       0xd4 board/nuvoton/nuc970/built-in.o
+ .text.console_tstc
+                0x0000000000000000       0x88 board/nuvoton/nuc970/built-in.o
+ .text.console_putc
+                0x0000000000000000       0x54 board/nuvoton/nuc970/built-in.o
+ .text.console_puts
+                0x0000000000000000       0x54 board/nuvoton/nuc970/built-in.o
+ .text.serial_printf
+                0x0000000000000000       0x44 board/nuvoton/nuc970/built-in.o
+ .text.console_getc.isra.0
+                0x0000000000000000       0x28 board/nuvoton/nuc970/built-in.o
+ .text.tstc     0x0000000000000000       0x24 board/nuvoton/nuc970/built-in.o
+ .text.putc     0x0000000000000000       0x28 board/nuvoton/nuc970/built-in.o
+ .text.puts     0x0000000000000000       0x28 board/nuvoton/nuc970/built-in.o
+ .text.getc     0x0000000000000000       0x48 board/nuvoton/nuc970/built-in.o
+ .text.fgetc    0x0000000000000000       0x44 board/nuvoton/nuc970/built-in.o
+ .text.ftstc    0x0000000000000000       0x14 board/nuvoton/nuc970/built-in.o
+ .text.fputc    0x0000000000000000        0xc board/nuvoton/nuc970/built-in.o
+ .text.fputs    0x0000000000000000        0xc board/nuvoton/nuc970/built-in.o
+ .text.fprintf  0x0000000000000000       0x4c board/nuvoton/nuc970/built-in.o
+ .text.ctrlc    0x0000000000000000       0x58 board/nuvoton/nuc970/built-in.o
+ .text.confirm_yesno
+                0x0000000000000000       0xd4 board/nuvoton/nuc970/built-in.o
+ .text.disable_ctrlc
+                0x0000000000000000       0x18 board/nuvoton/nuc970/built-in.o
+ .text.had_ctrlc
+                0x0000000000000000       0x10 board/nuvoton/nuc970/built-in.o
+ .text.clear_ctrlc
+                0x0000000000000000       0x14 board/nuvoton/nuc970/built-in.o
+ .text.search_device
+                0x0000000000000000       0x28 board/nuvoton/nuc970/built-in.o
+ .text.console_assign
+                0x0000000000000000       0xd8 board/nuvoton/nuc970/built-in.o
+ .text.console_init_f
+                0x0000000000000000       0x10 board/nuvoton/nuc970/built-in.o
+ .text.stdio_print_current_devices
+                0x0000000000000000       0xb0 board/nuvoton/nuc970/built-in.o
+ .text.console_init_r
+                0x0000000000000000      0x1c8 board/nuvoton/nuc970/built-in.o
+ .rodata.nand_ecc_precalc_table
+                0x0000000000000000      0x100 board/nuvoton/nuc970/built-in.o
+ .rodata.digits.6777
+                0x0000000000000000       0x10 board/nuvoton/nuc970/built-in.o
+ .rodata.hex_asc
+                0x0000000000000000       0x11 board/nuvoton/nuc970/built-in.o
+ .data          0x0000000000000000        0x0 board/nuvoton/nuc970/built-in.o
+ .data.nand_manuf_ids
+                0x0000000000000000       0x78 board/nuvoton/nuc970/built-in.o
+ .data.nuc970_serial_drv
+                0x0000000000000000       0x30 board/nuvoton/nuc970/built-in.o
+ .data.ext_clk  0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .data.baudrate
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .bss           0x0000000000000000        0x0 board/nuvoton/nuc970/built-in.o
+ .bss.nand_buffers
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .bss.read_oob  0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .bss.___strtok
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .bss.serial_devices
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .bss.serial_current
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .bss.local.7000
+                0x0000000000000000       0x16 board/nuvoton/nuc970/built-in.o
+ .bss.ctrlc_was_pressed
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .bss.cd_count  0x0000000000000000        0xc board/nuvoton/nuc970/built-in.o
+ .bss.tstcdev   0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .bss.ctrlc_disabled
+                0x0000000000000000        0x4 board/nuvoton/nuc970/built-in.o
+ .bss.console_devices
+                0x0000000000000000        0xc board/nuvoton/nuc970/built-in.o
+ .text          0x0000000000000000        0x0 common/init/built-in.o
+ .text.show_boot_progress
+                0x0000000000000000        0x4 common/init/built-in.o
+ .data          0x0000000000000000        0x0 common/init/built-in.o
+ .bss           0x0000000000000000        0x0 common/init/built-in.o
+ .text          0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .data          0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .bss           0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .text.raise    0x0000000000000000        0x8 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_unwind_cpp_pr0
+                0x0000000000000000        0x4 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_unwind_cpp_pr1
+                0x0000000000000000        0x4 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_memcpy
+                0x0000000000000000        0x4 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_memset
+                0x0000000000000000       0x10 arch/arm/lib/eabi_compat.o
+ .debug_info    0x0000000000000000      0x48f arch/arm/lib/eabi_compat.o
+ .debug_abbrev  0x0000000000000000      0x18c arch/arm/lib/eabi_compat.o
+ .debug_loc     0x0000000000000000       0xfd arch/arm/lib/eabi_compat.o
+ .debug_aranges
+                0x0000000000000000       0x40 arch/arm/lib/eabi_compat.o
+ .debug_ranges  0x0000000000000000       0x30 arch/arm/lib/eabi_compat.o
+ .debug_line    0x0000000000000000      0x113 arch/arm/lib/eabi_compat.o
+ .debug_str     0x0000000000000000      0x490 arch/arm/lib/eabi_compat.o
+ .comment       0x0000000000000000       0x25 arch/arm/lib/eabi_compat.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .ARM.attributes
+                0x0000000000000000       0x2b arch/arm/lib/eabi_compat.o
+ .debug_frame   0x0000000000000000       0x60 arch/arm/lib/eabi_compat.o
+ .text          0x0000000000000000        0x0 arch/arm/lib/lib.a(lib1funcs.o)
+ .data          0x0000000000000000        0x0 arch/arm/lib/lib.a(lib1funcs.o)
+ .bss           0x0000000000000000        0x0 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__umodsi3
+                0x0000000000000000       0xa0 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__modsi3
+                0x0000000000000000       0xb8 arch/arm/lib/lib.a(lib1funcs.o)
+ .text          0x0000000000000000        0x0 arch/arm/lib/lib.a(lshrdi3.o)
+ .data          0x0000000000000000        0x0 arch/arm/lib/lib.a(lshrdi3.o)
+ .bss           0x0000000000000000        0x0 arch/arm/lib/lib.a(lshrdi3.o)
+
+内存配置
+
+名称           来源             长度             属性
+*default*        0x0000000000000000 0xffffffffffffffff
+
+链结器命令稿和内存映射
+
+                0x0000000000000000                . = 0x0
+                0x0000000000000000                . = ALIGN (0x4)
+
+.text           0x0000000000000200     0x2894
+                0x0000000000000200                __image_copy_start = .
+ *(.vectors)
+ .vectors       0x0000000000000200       0x60 arch/arm/lib/built-in.o
+                0x0000000000000200                _start
+                0x0000000000000220                _undefined_instruction
+                0x0000000000000224                _software_interrupt
+                0x0000000000000228                _prefetch_abort
+                0x000000000000022c                _data_abort
+                0x0000000000000230                _not_used
+                0x0000000000000234                _irq
+                0x0000000000000238                _fiq
+ arch/arm/cpu/arm926ejs/start.o(.text*)
+ .text          0x0000000000000260       0x5c arch/arm/cpu/arm926ejs/start.o
+                0x0000000000000260                reset
+                0x0000000000000278                c_runtime_cpu_setup
+ *(.text*)
+ .text          0x00000000000002bc       0x28 arch/arm/lib/built-in.o
+                0x00000000000002bc                _main
+ .text.board_init_f
+                0x00000000000002e4      0x2d0 board/nuvoton/nuc970/built-in.o
+                0x00000000000002e4                board_init_f
+ .text.lowlevel_init
+                0x00000000000005b4        0x4 board/nuvoton/nuc970/built-in.o
+                0x00000000000005b4                lowlevel_init
+ .text.nand_read_byte
+                0x00000000000005b8       0x10 board/nuvoton/nuc970/built-in.o
+                0x00000000000005b8                nand_read_byte
+ .text.nand_read_byte16
+                0x00000000000005c8       0x10 board/nuvoton/nuc970/built-in.o
+ .text.nand_read_word
+                0x00000000000005d8        0xc board/nuvoton/nuc970/built-in.o
+ .text.nand_read_buf
+                0x00000000000005e4       0x28 board/nuvoton/nuc970/built-in.o
+                0x00000000000005e4                nand_read_buf
+ .text.nand_read_buf16
+                0x000000000000060c       0x2c board/nuvoton/nuc970/built-in.o
+                0x000000000000060c                nand_read_buf16
+ .text.nand_read_page_hwecc
+                0x0000000000000638      0x15c board/nuvoton/nuc970/built-in.o
+ .text.nand_read_page_hwecc_oob_first
+                0x0000000000000794      0x148 board/nuvoton/nuc970/built-in.o
+ .text.nand_set_defaults
+                0x00000000000008dc       0xac board/nuvoton/nuc970/built-in.o
+ .text.nand_select_chip
+                0x0000000000000988       0x24 board/nuvoton/nuc970/built-in.o
+ .text.nand_scan_ident
+                0x00000000000009ac      0x84c board/nuvoton/nuc970/built-in.o
+                0x00000000000009ac                nand_scan_ident
+ .text.nand_scan_tail
+                0x00000000000011f8      0x2dc board/nuvoton/nuc970/built-in.o
+                0x00000000000011f8                nand_scan_tail
+ .text.nand_scan
+                0x00000000000014d4       0x1c board/nuvoton/nuc970/built-in.o
+                0x00000000000014d4                nand_scan
+ .text.nuc970_nand_select_chip
+                0x00000000000014f0       0x1c board/nuvoton/nuc970/built-in.o
+ .text.nuc970_dev_ready
+                0x000000000000150c       0x18 board/nuvoton/nuc970/built-in.o
+ .text.nuc970_nand_command_lp
+                0x0000000000001524      0x198 board/nuvoton/nuc970/built-in.o
+                0x0000000000001524                nuc970_nand_command_lp
+ .text.nuc970_nand_read_byte
+                0x00000000000016bc       0x14 board/nuvoton/nuc970/built-in.o
+                0x00000000000016bc                nuc970_nand_read_byte
+ .text.nuc970_nand_write_buf
+                0x00000000000016d0       0x28 board/nuvoton/nuc970/built-in.o
+ .text.nuc970_nand_read_buf
+                0x00000000000016f8       0x28 board/nuvoton/nuc970/built-in.o
+ .text.nuc970_nand_enable_hwecc
+                0x0000000000001720        0x4 board/nuvoton/nuc970/built-in.o
+                0x0000000000001720                nuc970_nand_enable_hwecc
+ .text.nuc970_nand_calculate_ecc
+                0x0000000000001724        0x8 board/nuvoton/nuc970/built-in.o
+ .text.nuc970_nand_correct_data
+                0x000000000000172c        0x8 board/nuvoton/nuc970/built-in.o
+ .text.nuc970_nand_read_oob_hwecc
+                0x0000000000001734       0x48 board/nuvoton/nuc970/built-in.o
+ .text.fmiSM_CorrectData_BCH
+                0x000000000000177c      0x2c4 board/nuvoton/nuc970/built-in.o
+                0x000000000000177c                fmiSM_CorrectData_BCH
+ .text.fmiSMCorrectData
+                0x0000000000001a40       0xd8 board/nuvoton/nuc970/built-in.o
+                0x0000000000001a40                fmiSMCorrectData
+ .text.nuc970_nand_read_page_hwecc_oob_first
+                0x0000000000001b18      0x200 board/nuvoton/nuc970/built-in.o
+                0x0000000000001b18                nuc970_nand_read_page_hwecc_oob_first
+ .text.board_nand_init
+                0x0000000000001d18      0x294 board/nuvoton/nuc970/built-in.o
+                0x0000000000001d18                board_nand_init
+ .text.board_nand_postinit
+                0x0000000000001fac      0x238 board/nuvoton/nuc970/built-in.o
+                0x0000000000001fac                board_nand_postinit
+ .text.nand_register
+                0x00000000000021e4       0x6c board/nuvoton/nuc970/built-in.o
+                0x00000000000021e4                nand_register
+ .text.nand_correct_data
+                0x0000000000002250      0x124 board/nuvoton/nuc970/built-in.o
+                0x0000000000002250                nand_correct_data
+ .text.strncmp  0x0000000000002374       0x40 board/nuvoton/nuc970/built-in.o
+                0x0000000000002374                strncmp
+ .text.strlen   0x00000000000023b4       0x20 board/nuvoton/nuc970/built-in.o
+                0x00000000000023b4                strlen
+ .text.memset   0x00000000000023d4       0x5c board/nuvoton/nuc970/built-in.o
+                0x00000000000023d4                memset
+ .text.memcpy   0x0000000000002430       0x6c board/nuvoton/nuc970/built-in.o
+                0x0000000000002430                memcpy
+ .text.nuc970_serial_init
+                0x000000000000249c       0x44 board/nuvoton/nuc970/built-in.o
+                0x000000000000249c                nuc970_serial_init
+ .text.nuc970_serial_putc
+                0x00000000000024e0       0x3c board/nuvoton/nuc970/built-in.o
+                0x00000000000024e0                nuc970_serial_putc
+ .text.__div0   0x000000000000251c        0x4 board/nuvoton/nuc970/built-in.o
+                0x000000000000251c                __div0
+ .text.sysPutString
+                0x0000000000002520       0x20 board/nuvoton/nuc970/built-in.o
+                0x0000000000002520                sysPutString
+ .text.sysprintf
+                0x0000000000002540      0x36c board/nuvoton/nuc970/built-in.o
+                0x0000000000002540                sysprintf
+ .text.board_init_f_alloc_reserve
+                0x00000000000028ac        0xc common/init/built-in.o
+                0x00000000000028ac                board_init_f_alloc_reserve
+ .text.board_init_f_init_reserve
+                0x00000000000028b8       0x18 common/init/built-in.o
+                0x00000000000028b8                board_init_f_init_reserve
+ .text.__udivsi3
+                0x00000000000028d0       0x9c arch/arm/lib/lib.a(lib1funcs.o)
+                0x00000000000028d0                __udivsi3
+                0x00000000000028d0                __aeabi_uidiv
+ .text.__divsi3
+                0x000000000000296c       0xcc arch/arm/lib/lib.a(lib1funcs.o)
+                0x000000000000296c                __aeabi_idiv
+                0x000000000000296c                __divsi3
+ .text.__aeabi_uidivmod
+                0x0000000000002a38       0x30 arch/arm/lib/lib.a(lib1funcs.o)
+                0x0000000000002a38                __aeabi_uidivmod
+                0x0000000000002a50                __aeabi_idivmod
+ .text.Ldiv0    0x0000000000002a68       0x10 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__lshldi3
+                0x0000000000002a78       0x1c arch/arm/lib/lib.a(lshrdi3.o)
+                0x0000000000002a78                __aeabi_llsr
+                0x0000000000002a78                __lshrdi3
+
+.glue_7         0x0000000000002a94        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000000002a94        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000002a94        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000002a94        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000000002a94        0x0
+ .iplt          0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/start.o
+                0x0000000000002a94                . = ALIGN (0x4)
+
+.rodata         0x0000000000002a94      0x588
+ *(SORT(.rodata*))
+ .rodata.g_i32BCHAlgoIdx
+                0x0000000000002a94       0x14 board/nuvoton/nuc970/built-in.o
+ .rodata.g_i32ParityNum
+                0x0000000000002aa8       0x50 board/nuvoton/nuc970/built-in.o
+ .rodata.str1.1
+                0x0000000000002af8      0x524 board/nuvoton/nuc970/built-in.o
+                0x000000000000301c                . = ALIGN (0x4)
+
+.data           0x000000000000301c     0x13a4
+ *(.data*)
+ .data.nand_oob_xxx
+                0x000000000000301c      0xba8 board/nuvoton/nuc970/built-in.o
+ .data.nand_curr_device
+                0x0000000000003bc4        0x4 board/nuvoton/nuc970/built-in.o
+                0x0000000000003bc4                nand_curr_device
+ .data.nand_flash_ids
+                0x0000000000003bc8      0x7f8 board/nuvoton/nuc970/built-in.o
+                0x0000000000003bc8                nand_flash_ids
+
+.igot.plt       0x00000000000043c0        0x0
+ .igot.plt      0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/start.o
+                0x00000000000043c0                . = ALIGN (0x4)
+
+.u_boot_list
+ *(SORT(.u_boot_list*))
+                0x00000000000043c0                . = ALIGN (0x4)
+                0x00000000000043c0                __image_copy_end = .
+
+.rel.dyn        0x00000000000043c0        0x0
+                0x00000000000043c0                __rel_dyn_start = .
+ *(.rel*)
+ .rel.iplt      0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/start.o
+                0x00000000000043c0                __rel_dyn_end = .
+
+.end
+ *(.__end)
+                0x00000000000043c0                _image_binary_end = .
+
+.bss            0x00000000000043c0     0x6a48
+                0x00000000000043c0                __bss_start = .
+ *(.bss*)
+ .bss.nand_chip
+                0x00000000000043c0      0x510 board/nuvoton/nuc970/built-in.o
+ .bss.g_nand_buffers
+                0x00000000000048d0     0x5380 board/nuvoton/nuc970/built-in.o
+                0x00000000000048d0                g_nand_buffers
+ .bss.nuc970_nand
+                0x0000000000009c50        0x4 board/nuvoton/nuc970/built-in.o
+                0x0000000000009c50                nuc970_nand
+ .bss.nuc970_nand_oob
+                0x0000000000009c54      0xba8 board/nuvoton/nuc970/built-in.o
+ *fill*         0x000000000000a7fc        0x4 
+ .bss.g_nuc970_nand
+                0x000000000000a800      0x5f8 board/nuvoton/nuc970/built-in.o
+                0x000000000000a800                g_nuc970_nand
+ .bss.nand_info
+                0x000000000000adf8        0x4 board/nuvoton/nuc970/built-in.o
+                0x000000000000adf8                nand_info
+ .bss.total_nand_size
+                0x000000000000adfc        0x4 board/nuvoton/nuc970/built-in.o
+ .bss.dev_name  0x000000000000ae00        0x8 board/nuvoton/nuc970/built-in.o
+                0x000000000000ae08                . = ALIGN (0x4)
+                0x000000000000ae08                __bss_end = .
+                0x0000000000006a48                __bss_size = (__bss_end - __bss_start)
+
+.dynsym
+ *(.dynsym)
+
+.dynbss
+ *(.dynbss)
+
+.dynstr
+ *(.dynstr*)
+
+.dynamic
+ *(.dynamic*)
+
+.hash
+ *(.hash*)
+
+.plt
+ *(.plt*)
+
+.interp
+ *(.interp*)
+
+.gnu
+ *(.gnu*)
+
+.ARM.exidx
+ *(.ARM.exidx*)
+段 .text 的地址设置为 0x200
+LOAD arch/arm/cpu/arm926ejs/start.o
+START GROUP
+LOAD arch/arm/cpu/arm926ejs/built-in.o
+LOAD arch/arm/cpu/built-in.o
+LOAD arch/arm/lib/built-in.o
+LOAD board/nuvoton/nuc970/built-in.o
+LOAD common/init/built-in.o
+LOAD drivers/built-in.o
+LOAD dts/built-in.o
+LOAD fs/built-in.o
+END GROUP
+LOAD arch/arm/lib/eabi_compat.o
+LOAD arch/arm/lib/lib.a
+OUTPUT(u-boot-spl elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x29
+ .ARM.attributes
+                0x0000000000000000       0x1d arch/arm/cpu/arm926ejs/start.o
+ .ARM.attributes
+                0x000000000000001d       0x29 arch/arm/lib/built-in.o
+ .ARM.attributes
+                0x0000000000000046       0x2b board/nuvoton/nuc970/built-in.o
+ .ARM.attributes
+                0x0000000000000071       0x2b common/init/built-in.o
+ .ARM.attributes
+                0x000000000000009c       0x1d arch/arm/lib/lib.a(lib1funcs.o)
+ .ARM.attributes
+                0x00000000000000b9       0x1d arch/arm/lib/lib.a(lshrdi3.o)
+
+.comment        0x0000000000000000       0x24
+ .comment       0x0000000000000000       0x24 arch/arm/lib/built-in.o
+                                        0x103 (松开之前的大小)
+ .comment       0x0000000000000000      0x1e1 board/nuvoton/nuc970/built-in.o
+ .comment       0x0000000000000000       0x25 common/init/built-in.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 board/nuvoton/nuc970/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 common/init/built-in.o
+
+.debug_line     0x0000000000000000     0x2f1b
+ .debug_line    0x0000000000000000       0x66 arch/arm/cpu/arm926ejs/start.o
+ .debug_line    0x0000000000000066      0x8c4 arch/arm/lib/built-in.o
+ .debug_line    0x000000000000092a     0x239d board/nuvoton/nuc970/built-in.o
+ .debug_line    0x0000000000002cc7      0x105 common/init/built-in.o
+ .debug_line    0x0000000000002dcc      0x103 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_line    0x0000000000002ecf       0x4c arch/arm/lib/lib.a(lshrdi3.o)
+
+.debug_info     0x0000000000000000    0x12336
+ .debug_info    0x0000000000000000       0xa0 arch/arm/cpu/arm926ejs/start.o
+ .debug_info    0x00000000000000a0     0x2999 arch/arm/lib/built-in.o
+ .debug_info    0x0000000000002a39     0xf1e1 board/nuvoton/nuc970/built-in.o
+ .debug_info    0x0000000000011c1a      0x5ee common/init/built-in.o
+ .debug_info    0x0000000000012208       0x96 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_info    0x000000000001229e       0x98 arch/arm/lib/lib.a(lshrdi3.o)
+
+.debug_abbrev   0x0000000000000000     0x34bf
+ .debug_abbrev  0x0000000000000000       0x14 arch/arm/cpu/arm926ejs/start.o
+ .debug_abbrev  0x0000000000000014      0xae2 arch/arm/lib/built-in.o
+ .debug_abbrev  0x0000000000000af6     0x280b board/nuvoton/nuc970/built-in.o
+ .debug_abbrev  0x0000000000003301      0x198 common/init/built-in.o
+ .debug_abbrev  0x0000000000003499       0x12 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_abbrev  0x00000000000034ab       0x14 arch/arm/lib/lib.a(lshrdi3.o)
+
+.debug_aranges  0x0000000000000000      0x7e0
+ .debug_aranges
+                0x0000000000000000       0x20 arch/arm/cpu/arm926ejs/start.o
+ .debug_aranges
+                0x0000000000000020      0x200 arch/arm/lib/built-in.o
+ .debug_aranges
+                0x0000000000000220      0x528 board/nuvoton/nuc970/built-in.o
+ .debug_aranges
+                0x0000000000000748       0x30 common/init/built-in.o
+ .debug_aranges
+                0x0000000000000778       0x48 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_aranges
+                0x00000000000007c0       0x20 arch/arm/lib/lib.a(lshrdi3.o)
+
+.debug_frame    0x0000000000000000     0x1088
+ .debug_frame   0x0000000000000000      0x328 arch/arm/lib/built-in.o
+ .debug_frame   0x0000000000000328      0xd20 board/nuvoton/nuc970/built-in.o
+ .debug_frame   0x0000000000001048       0x40 common/init/built-in.o
+
+.debug_str      0x0000000000000000     0x27f6
+ .debug_str     0x0000000000000000      0xa34 arch/arm/lib/built-in.o
+                                       0x231f (松开之前的大小)
+ .debug_str     0x0000000000000a34     0x1d5a board/nuvoton/nuc970/built-in.o
+                                       0x7eff (松开之前的大小)
+ .debug_str     0x000000000000278e       0x68 common/init/built-in.o
+                                        0x5b8 (松开之前的大小)
+
+.debug_loc      0x0000000000000000     0x6f6b
+ .debug_loc     0x0000000000000000      0x498 arch/arm/lib/built-in.o
+ .debug_loc     0x0000000000000498     0x6a35 board/nuvoton/nuc970/built-in.o
+ .debug_loc     0x0000000000006ecd       0x9e common/init/built-in.o
+
+.debug_ranges   0x0000000000000000      0xa20
+ .debug_ranges  0x0000000000000000      0x148 arch/arm/lib/built-in.o
+ .debug_ranges  0x0000000000000148      0x878 board/nuvoton/nuc970/built-in.o
+ .debug_ranges  0x00000000000009c0       0x20 common/init/built-in.o
+ .debug_ranges  0x00000000000009e0       0x40 arch/arm/lib/lib.a(lib1funcs.o)

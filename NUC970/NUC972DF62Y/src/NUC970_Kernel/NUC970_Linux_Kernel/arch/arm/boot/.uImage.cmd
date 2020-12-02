@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/uImage := /bin/bash /home/cjx/linux/Nuvoton-ARM9/NUC970/NUC972DF62Y/src/NUC970_Kernel/NUC970_Linux_Kernel/scripts/mkuboot.sh -A arm -O linux -C none  -T kernel -a 0x00008000 -e 0x00008000 -n 'Linux-3.10.108' -d arch/arm/boot/zImage arch/arm/boot/uImage

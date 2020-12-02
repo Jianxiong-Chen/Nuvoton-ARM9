@@ -1,0 +1,1 @@
+cmd_arch/arm/cpu/arm926ejs/built-in.o :=  arm-linux-gnueabihf-ld.bfd     -r -o arch/arm/cpu/arm926ejs/built-in.o arch/arm/cpu/arm926ejs/cpu.o arch/arm/cpu/arm926ejs/cache.o arch/arm/cpu/arm926ejs/nuc970/built-in.o 

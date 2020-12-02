@@ -1,0 +1,15 @@
+my_nuc970_nand.c:88:13:nuc970_nand_select_chip	0	static
+my_nuc970_nand.c:95:12:nuc970_dev_ready	0	static
+my_nuc970_nand.c:106:6:nuc970_nand_command_lp	12	static
+my_nuc970_nand.c:198:15:nuc970_nand_read_byte	0	static
+my_nuc970_nand.c:214:13:nuc970_nand_write_buf	0	static
+my_nuc970_nand.c:230:13:nuc970_nand_read_buf	0	static
+my_nuc970_nand.c:243:6:nuc970_nand_enable_hwecc	0	static
+my_nuc970_nand.c:254:12:nuc970_nand_calculate_ecc	0	static
+my_nuc970_nand.c:267:12:nuc970_nand_correct_data	0	static
+my_nuc970_nand.c:606:12:nuc970_nand_read_oob_hwecc	16	static
+my_nuc970_nand.c:278:6:fmiSM_CorrectData_BCH	256	static
+my_nuc970_nand.c:406:5:fmiSMCorrectData	24	static
+my_nuc970_nand.c:554:5:nuc970_nand_read_page_hwecc_oob_first	32	static
+my_nuc970_nand.c:638:5:board_nand_init	24	static
+my_nuc970_nand.c:746:5:board_nand_postinit	8	static

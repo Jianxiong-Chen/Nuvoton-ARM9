@@ -1,0 +1,5 @@
+nand.c:116:12:set_dev	16	static
+nand.c:284:13:nand_print_and_set_info	8	static
+nand.c:368:12:do_nand	192	static
+nand.c:872:12:nand_load_image	64	static
+nand.c:960:12:do_nandboot	48	static
