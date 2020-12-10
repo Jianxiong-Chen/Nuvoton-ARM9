@@ -1,3 +1,0 @@
-cmd_rtc_spare.c:17:6:RTC_Check	0	static
-cmd_rtc_spare.c:38:6:RTC_AER	8	static
-cmd_rtc_spare.c:61:12:do_rtcspare	24	static

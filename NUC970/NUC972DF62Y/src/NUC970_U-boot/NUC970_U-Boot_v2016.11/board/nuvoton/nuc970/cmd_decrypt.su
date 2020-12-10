@@ -1,4 +1,0 @@
-cmd_decrypt.c:33:12:otp_init	16	static
-cmd_decrypt.c:251:5:do_decrypt	24	static
-cmd_decrypt.c:206:12:do_decrypt_program	16	static
-cmd_decrypt.c:76:12:do_decrypt_aes	32	static

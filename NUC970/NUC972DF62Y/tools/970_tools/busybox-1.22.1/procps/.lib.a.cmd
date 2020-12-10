@@ -1,1 +1,0 @@
-cmd_procps/lib.a := rm -f procps/lib.a; /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar  rcs procps/lib.a procps/kill.o procps/ps.o procps/top.o procps/watch.o

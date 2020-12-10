@@ -1,2 +1,0 @@
-ehci-nuc970.c:49:5:ehci_hcd_init	24	static
-ehci-nuc970.c:86:5:ehci_hcd_stop	0	static

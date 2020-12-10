@@ -1,1 +1,0 @@
-cmd_drivers/net/ethernet/nuvoton/built-in.o :=  /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ld -EL    -r -o drivers/net/ethernet/nuvoton/built-in.o drivers/net/ethernet/nuvoton/nuc970_ether0.o 

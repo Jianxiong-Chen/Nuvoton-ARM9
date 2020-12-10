@@ -1,1 +1,0 @@
-cmd_util-linux/volume_id/lib.a := rm -f util-linux/volume_id/lib.a; /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar  rcs util-linux/volume_id/lib.a util-linux/volume_id/fat.o util-linux/volume_id/get_devname.o util-linux/volume_id/iso9660.o util-linux/volume_id/romfs.o util-linux/volume_id/util.o util-linux/volume_id/volume_id.o

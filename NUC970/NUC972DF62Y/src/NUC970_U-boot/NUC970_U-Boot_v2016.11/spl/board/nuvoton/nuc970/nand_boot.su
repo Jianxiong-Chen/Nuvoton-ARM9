@@ -1,3 +1,0 @@
-nand_boot.c:118:6:board_init_f	48	static
-nand_boot.c:173:6:lowlevel_init	0	static
-nand_boot.c:178:6:hang	0	static

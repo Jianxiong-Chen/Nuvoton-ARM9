@@ -1,1 +1,0 @@
-cmd_spl/arch/arm/cpu/arm926ejs/nuc970/built-in.o :=  arm-linux-gnueabihf-ld.bfd     -r -o spl/arch/arm/cpu/arm926ejs/nuc970/built-in.o spl/arch/arm/cpu/arm926ejs/nuc970/cpu.o spl/arch/arm/cpu/arm926ejs/nuc970/reset.o 

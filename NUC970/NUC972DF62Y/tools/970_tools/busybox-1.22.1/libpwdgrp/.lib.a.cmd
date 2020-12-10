@@ -1,1 +1,0 @@
-cmd_libpwdgrp/lib.a := rm -f libpwdgrp/lib.a; /usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar  rcs libpwdgrp/lib.a libpwdgrp/uidgid_get.o

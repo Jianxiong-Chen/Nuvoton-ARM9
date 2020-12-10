@@ -1,4 +1,0 @@
-nuc970_sysprintf.c:42:6:__div0	0	static
-nuc970_sysprintf.c:64:6:_PutChar_f	0	static
-nuc970_sysprintf.c:73:6:sysPutString	8	static
-nuc970_sysprintf.c:253:6:sysprintf	88	static
