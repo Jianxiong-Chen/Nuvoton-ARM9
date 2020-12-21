@@ -1,0 +1,555 @@
+--------------------
+./configure --prefix=/home/cjx/linux/cjx_project/Nuvoton-ARM9/NUC970/NUC972DF62Y/tools/970_tools/dropber/zlib
+2020年 12月 16日 星期三 19:24:43 CST
+=== ztest114172.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-linux-gcc -c ztest114172.c
+./configure: 182: ./configure: arm-linux-gcc: not found
+... using arm-linux-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest114172.c ===
+int foo() { return 0; }
+===
+arm-linux-gcc -c -O ztest114172.c
+./configure: 370: ./configure: arm-linux-gcc: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib
+2020年 12月 16日 星期三 19:25:01 CST
+=== ztest114201.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-linux-gcc -c ztest114201.c
+./configure: 182: ./configure: arm-linux-gcc: not found
+... using arm-linux-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest114201.c ===
+int foo() { return 0; }
+===
+arm-linux-gcc -c -O ztest114201.c
+./configure: 370: ./configure: arm-linux-gcc: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib
+2020年 12月 16日 星期三 19:25:10 CST
+=== ztest114232.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-linux-gcc -c ztest114232.c
+./configure: 182: ./configure: arm-linux-gcc: not found
+... using arm-linux-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest114232.c ===
+int foo() { return 0; }
+===
+arm-linux-gcc -c -O ztest114232.c
+./configure: 370: ./configure: arm-linux-gcc: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib
+2020年 12月 16日 星期三 19:25:29 CST
+Checking for gcc...
+=== ztest114261.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -c ztest114261.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest114261.c ===
+int foo() { return 0; }
+===
+gcc -c -O3 ztest114261.c
+
+Checking for shared library support...
+=== ztest114261.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -w -c -O3 -fPIC ztest114261.c
+gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest114261.so ztest114261.o
+Building shared library libz.so.1.2.11 with gcc.
+
+=== ztest114261.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+gcc -c -O3 ztest114261.c
+Checking for size_t... Yes.
+
+
+=== ztest114261.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest114261.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest114261.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest114261 ztest114261.c
+Checking for strerror... Yes.
+
+=== ztest114261.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest114261.c
+Checking for unistd.h... Yes.
+
+=== ztest114261.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest114261.c
+Checking for stdarg.h... Yes.
+
+=== ztest114261.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest114261.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest114261.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest114261 ztest114261.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest114261.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest114261.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest114261.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest114261.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = ar
+ARFLAGS = rc
+CC = gcc
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = gcc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.11
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = ../zlib
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib
+2020年 12月 16日 星期三 19:30:21 CST
+=== ztest116902.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-linux-gcc -c ztest116902.c
+./configure: 182: ./configure: arm-linux-gcc: not found
+... using arm-linux-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest116902.c ===
+int foo() { return 0; }
+===
+arm-linux-gcc -c -O ztest116902.c
+./configure: 370: ./configure: arm-linux-gcc: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib
+2020年 12月 16日 星期三 19:30:23 CST
+=== ztest116931.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-linux-gcc -c ztest116931.c
+./configure: 182: ./configure: arm-linux-gcc: not found
+... using arm-linux-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest116931.c ===
+int foo() { return 0; }
+===
+arm-linux-gcc -c -O ztest116931.c
+./configure: 370: ./configure: arm-linux-gcc: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib
+2020年 12月 16日 星期三 19:30:32 CST
+=== ztest116960.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-linux-gcc -c ztest116960.c
+./configure: 182: ./configure: arm-linux-gcc: not found
+... using arm-linux-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest116960.c ===
+int foo() { return 0; }
+===
+arm-linux-gcc -c -O ztest116960.c
+./configure: 370: ./configure: arm-linux-gcc: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib
+2020年 12月 16日 星期三 19:30:36 CST
+=== ztest116989.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-linux-gcc -c ztest116989.c
+./configure: 182: ./configure: arm-linux-gcc: not found
+... using arm-linux-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest116989.c ===
+int foo() { return 0; }
+===
+arm-linux-gcc -c -O ztest116989.c
+./configure: 370: ./configure: arm-linux-gcc: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib
+2020年 12月 16日 星期三 19:30:38 CST
+=== ztest117018.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-linux-gcc -c ztest117018.c
+./configure: 182: ./configure: arm-linux-gcc: not found
+... using arm-linux-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest117018.c ===
+int foo() { return 0; }
+===
+arm-linux-gcc -c -O ztest117018.c
+./configure: 370: ./configure: arm-linux-gcc: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib CC=arm-linux-gcc AR=arm-linux-ar RANLIB=arm-linux-ranlib
+2020年 12月 16日 星期三 19:31:03 CST
+unknown option: CC=arm-linux-gcc
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib CC=arm-linux-gcc AR=arm-linux-ar RANLIB=arm-linux-ranlib
+2020年 12月 16日 星期三 19:31:41 CST
+unknown option: CC=arm-linux-gcc
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --prefix=../zlib
+2020年 12月 16日 星期三 19:31:50 CST
+Checking for gcc...
+=== ztest117100.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -c ztest117100.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest117100.c ===
+int foo() { return 0; }
+===
+gcc -c -O3 ztest117100.c
+
+Checking for shared library support...
+=== ztest117100.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -w -c -O3 -fPIC ztest117100.c
+gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest117100.so ztest117100.o
+Building shared library libz.so.1.2.11 with gcc.
+
+=== ztest117100.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+gcc -c -O3 ztest117100.c
+Checking for size_t... Yes.
+
+
+=== ztest117100.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest117100.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest117100.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest117100 ztest117100.c
+Checking for strerror... Yes.
+
+=== ztest117100.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest117100.c
+Checking for unistd.h... Yes.
+
+=== ztest117100.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest117100.c
+Checking for stdarg.h... Yes.
+
+=== ztest117100.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest117100.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest117100.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest117100 ztest117100.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest117100.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest117100.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest117100.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest117100.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = ar
+ARFLAGS = rc
+CC = gcc
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = gcc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.11
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = ../zlib
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --prefix=/home/cjx/ssh/zlib
+2020年 12月 16日 星期三 19:32:44 CST
+=== ztest117273.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+arm-linux-gcc -c ztest117273.c
+./configure: 182: ./configure: arm-linux-gcc: not found
+... using arm-linux-gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest117273.c ===
+int foo() { return 0; }
+===
+arm-linux-gcc -c -O ztest117273.c
+./configure: 370: ./configure: arm-linux-gcc: not found
+(exit code 127)
+Compiler error reporting is too harsh for ./configure (perhaps remove -Werror).
+** ./configure aborting.
+--------------------
+
+
