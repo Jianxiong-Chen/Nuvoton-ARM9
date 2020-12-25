@@ -16,7 +16,7 @@
 # To install in $HOME instead of /usr/local, use:
 #    make install prefix=$HOME
 
-CC=gcc
+CC=/home/cjx/linux/cjx_project/Nuvoton-ARM9/NUC970/NUC972DF62Y/tools/ext-toolchain/bin/arm-none-linux-gnueabi-gcc
 
 CFLAGS=-O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
 #CFLAGS=-O -DMAX_WBITS=14 -DMAX_MEM_LEVEL=7
@@ -27,7 +27,7 @@ CFLAGS=-O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
 SFLAGS=-O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
 LDFLAGS=
 TEST_LDFLAGS=-L. libz.a
-LDSHARED=gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHARED=/home/cjx/linux/cjx_project/Nuvoton-ARM9/NUC970/NUC972DF62Y/tools/ext-toolchain/bin/arm-none-linux-gnueabi-gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
 CPP=gcc -E
 
 STATICLIB=libz.a
@@ -36,16 +36,16 @@ SHAREDLIBV=libz.so.1.2.11
 SHAREDLIBM=libz.so.1
 LIBS=$(STATICLIB) $(SHAREDLIBV)
 
-AR=ar
+AR=/home/cjx/linux/cjx_project/Nuvoton-ARM9/NUC970/NUC972DF62Y/tools/ext-toolchain/bin/arm-none-linux-gnueabi-ar
 ARFLAGS=rc
-RANLIB=ranlib
+RANLIB=/home/cjx/linux/cjx_project/Nuvoton-ARM9/NUC970/NUC972DF62Y/tools/ext-toolchain/bin/arm-none-linux-gnueabi-ranlib
 LDCONFIG=ldconfig
 LDSHAREDLIBC=-lc
 TAR=tar
 SHELL=/bin/sh
 EXE=
 
-prefix =../zlib
+prefix =/home/cjx/linux/cjx_project/Nuvoton-ARM9/NUC970/NUC972DF62Y/tools/970_tools/ssh/zlib
 exec_prefix =${prefix}
 libdir =${exec_prefix}/lib
 sharedlibdir =${libdir}

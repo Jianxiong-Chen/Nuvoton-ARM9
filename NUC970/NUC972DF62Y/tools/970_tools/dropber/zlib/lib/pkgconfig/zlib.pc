@@ -1,4 +1,4 @@
-prefix=../zlib
+prefix=/home/cjx/linux/cjx_project/Nuvoton-ARM9/NUC970/NUC972DF62Y/tools/970_tools/ssh/zlib
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 sharedlibdir=${libdir}
